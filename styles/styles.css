@@ -17,26 +17,30 @@ h1 {
 }
 
 
+main {
+    max-width: 840px;
+}
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30 px gray;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 0px;
+    padding: 0;
 }
 
-main {
-    width: 80%;
-    margin: 5px auto;
-    border: 3px solid lightblue;
-    padding: 10px;
+aside {
+    width: 20em;
+    margin: 1em;
+    border: 2px solid lightblue;
+    padding: 1em;
     background-color: rgb(29, 10, 99);
     color: white;
+    text-align: center;
 }
 
 aside img {
@@ -54,4 +58,3 @@ footer {
     border-top: 2px dashed darkblue;
     text-align: center;
 }
-
