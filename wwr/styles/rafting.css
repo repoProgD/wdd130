@@ -16,7 +16,26 @@
 
 header{
     background-color: var(--primary-color);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+
+    display:grid;
+    grid-template-columns: 1fr 1.25fr;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav a{
+    font-family: var(--body-font);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+    
 }
 
 
@@ -84,4 +103,52 @@ h1{
     width: 125px;
     margin-left:16px;
 }
+
+.about-history{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.about-history h2{
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+
+.about-adventure{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.about-adventure h2{
+    grid-column: 1/-1;
+    text-align: center;
+    
+}
+
+.last-figure{
+    grid-column: 1/-1;
+    justify-self: stretch;
+}
+
+
+section figure {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+
+
 
