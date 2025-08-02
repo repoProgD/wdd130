@@ -70,18 +70,26 @@
             <p>Send us a message and we'll respond within 24 hours.</p>
             <form class="contact-form">
                 <div class="form-data">
-                    <input type="text" placeholder="Your name" required>
-                    <input type="email" placeholder="Your email adress" required>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your email adress" required>
+                    </div>
                 </div>
-                
-                
+                   
                 <fieldset class="radio-buttons">
                     <legend>Reason for Contact</legend>
                     <label><input type="radio" name="reason"> General Inquiry</label>
                     <label><input type="radio" name="reason"> Reservation Question</label>
                     <label><input type="radio" name="reason"> Website Suggestion</label>
                 </fieldset>
-                <textarea placeholder="Your message" required></textarea>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                </div>
                 <div class="checkbox">
                     <label><input type="checkbox"> Please subscribe me to the monthly newsletter</label>
                     <button type="submit">Submit</button>
