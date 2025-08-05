@@ -216,17 +216,23 @@ button[type="submit"] {
   font-weight: bold;
   cursor: pointer;
 }
-
+/* I can changed this selector later, using a class in css*/
 footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 0.25rem;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .external-link{
-    text-decoration: none;
-    color: var(--primary-color);
-    font-weight: 700;
+    font-family: var(--body-font);
+    margin-left: 0.5rem;
+    padding: 0 0.25rem;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    font-weight: 600;
+    background-color: var(--accent2-color);
+   
 }
