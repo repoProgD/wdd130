@@ -66,7 +66,6 @@ header, main, footer{
 h1, h2 {
   font-family: var(--heading-font);
   font-weight: 700;
-  font-style: normal;
   color: var(--primary-color);
   text-align: center;
 }
@@ -155,20 +154,8 @@ figure img{
 }
 
 
-.contact-information{
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-    flex: 1 1 250px;
-    
-}
-
-h3{
-    text-align: center;
-}
-
 .contact-information address{
-    padding-left: 6rem;
+    padding-left: 1rem;
     line-height: 2; 
 }
 
@@ -191,6 +178,7 @@ h3{
     display: flex;
     flex-direction: column;
     flex: 1 1 150px;
+    
 }
 
 .form-control{
@@ -200,11 +188,6 @@ h3{
     font-size: 1rem;
     font-family: var(--body-font);
     
-}
-
-textarea{
-    height: 100px;
-    border: 2px solid var(--accent2-color);
 }
 
 .radio-buttons{
@@ -221,7 +204,6 @@ textarea{
     border-radius: 8px;
     text-align:center;
 }
-
 
 button[type="submit"] {
   align-self: flex-start;
@@ -241,9 +223,4 @@ footer{
     justify-content: space-between;
     gap: 0.25rem;
     flex-wrap: wrap; 
-}
-
-footer a{
-    color: var(--primary-color);
-    font-weight: 600;
 }
