@@ -11,8 +11,8 @@
     <!-- Google Fonts (Lora & Roboto)-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Roboto:wght@100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="icon" href="/wdd130/favicon.ico" type="image/x-icon">
 
@@ -29,12 +29,11 @@
         </nav>
     </header>
     <main>
-        <h1>Contact Us</h1>
-        <section class="contact-section">   
-            
+        <h1 class="banner">Contact Us</h1>
+        <section class="contact-section">         
             <div class="contact-box">
                 <div class="contact-information">
-                    <h2>Contact Information</h2>
+                    <h2 class="full-span-h2">Contact Information</h2>
                     <h3>Mendoza, Argentina</h3>
                     <address>
                         <ul>
@@ -49,8 +48,8 @@
                 </div>
             </div>
         </section>
-        <section class="employees-section">
-            <h2>Meet Our Customer Support Team</h2>
+        <section class="contact contact-employees three-col-grid">
+            <h2 class="full-span-h2">Meet Our Customer Support Team</h2>
             <figure>
             <img src="images/employee1.webp" alt="Smiling Customer Support Representative" width="200">
             <figcaption>Customer Support Team</figcaption>
@@ -66,35 +65,39 @@
         </section>
         
         <section class="contact-form-section">
-            <h2>Send Us a Message</h2>
+            <h2 class="full-span-h2">Send Us a Message</h2>
             <p>Send us a message and we'll respond within 24 hours.</p>
             <form class="contact-form">
                 <div class="form-data">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
                     </div>
+
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Your email adress" required>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your email adress" required>
                     </div>
                 </div>
                    
                 <fieldset class="radio-buttons">
                     <legend>Reason for Contact</legend>
-                    <label><input type="radio" id="reason-general" name="reason"> General Inquiry</label>
+                    <label><input type="radio" id="reason-general" name="reason" required> General Inquiry</label>
                     <label><input type="radio" id="reason-reservation" name="reason"> Reservation Question</label>
                     <label><input type="radio" id="reason-suggestion" name="reason"> Website Suggestion</label>
                 </fieldset>
+
                 <div class="form-group">
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                    <textarea id="message" name="message" class="form-control" placeholder="Your message" required></textarea>
                 </div>
-                <div class="checkbox">
-                    <label><input type="checkbox"> Please subscribe me to the monthly newsletter</label>
-                    <button type="submit">Book My Adventure</button>
+
+                <div>
+                <label><input type="checkbox"> Please subscribe me to the monthly newsletter</label>
+                </div>  
+                <div>
+                <button type="submit">Book My Adventure</button>    
                 </div>
-                
             </form>
         </section>
     </main>
