@@ -26,6 +26,7 @@ header{
 
 .header-img{
     width: 55%;
+    height:auto;
     border-radius: 10px;
     filter: drop-shadow(6px 20px 20px rgba(0,0,0,0.5))
 }
@@ -358,6 +359,7 @@ footer{
     background-color: var(--accent2-color);
     text-align: center;
     padding: 2rem;
+    border-radius: 4px;
 }
 
 .trips-cta-button{
@@ -367,6 +369,7 @@ footer{
     border-radius: 8px;
     font-size: 1rem;
     cursor:pointer;
+    margin-top: 1rem;
 }
 
 .trip-img{
