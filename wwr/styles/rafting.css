@@ -219,7 +219,7 @@ button[type="submit"] {
   font-weight: bold;
   cursor: pointer;
 }
-/* I can changed this selector later, using a class in css*/
+
 footer{
     display: flex;
     align-items: center;
@@ -339,4 +339,65 @@ footer{
   margin-top: 2rem;
 }
 
+
+/*Trips */
+
+
+.trip{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1.25rem;
+    align-items: center;;
+}
+
+.our-trips{
+    padding-top:8rem;
+}
+
+.trips-cta{
+    background-color: var(--accent2-color);
+    text-align: center;
+    padding: 2rem;
+}
+
+.trips-cta-button{
+    background-color: black;
+    color: var(--accent1-color);
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor:pointer;
+}
+
+.trip-img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.trip-description{
+    flex: 1 1 400px;
+}
+
+.trips-details{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+
+.trips-table{
+    width: 100%;
+    border-collapse: collapse;
+    background: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 1.25rem;
+ 
+}
+
+.trips-table th, .trips-table td {
+    padding: 0.8rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--accent2-color);
+}
 
